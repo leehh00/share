@@ -69,6 +69,7 @@ public class AutoMovement : MonoBehaviour
 
     bool CheckObstacle()
     {
+        Debug.DrawRay(transform.position, transform.forward * 2, Color.red);
         // 캐릭터 현재 위치에서 앞으로 레이캐스트를 발사합니다.
         Ray ray = new Ray(transform.position, transform.forward);
         RaycastHit hit;
@@ -82,7 +83,7 @@ public class AutoMovement : MonoBehaviour
             // 만약 선택한 방향이 충돌 지점의 법선과 같다면 90도 회전시킵니다.
             if (Vector3.Dot(newDirection, hit.normal) > 0.9f)
             {
-                newDirection = Quaternion.AngleAxis(90f, Vector3.up) * newDirection;
+                newDirection = Quaternion.AngleAxis(50f, Vector3.up) * newDirection;
             }
 
             // 방향만 변경합니다. 위치 변경은 Move 함수에서 처리되어야 합니다.
