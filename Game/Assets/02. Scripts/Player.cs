@@ -36,30 +36,5 @@ public class Player : MonoBehaviour
 
         transform.LookAt(transform.position + moveVec);
     }
-
-    void Interaction()
-    {
-        if (nearObject.tag == "NPC")
-        {
-            NPC npc = nearObject.GetComponent<NPC>();
-            npc.Enter(this);
-        }
-    }
-
-    void OnTriggerStay(Collider other)
-    {
-        if (other.tag == "NPC")
-            nearObject = other.gameObject;
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "NPC")
-        {
-            NPC npc = nearObject.GetComponent<NPC>();
-            npc.Exit();
-            nearObject = null;
-        }
-    }
     
 }
