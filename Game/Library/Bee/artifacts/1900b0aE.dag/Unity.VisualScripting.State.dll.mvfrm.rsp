@@ -19,7 +19,6 @@ Library\Bee\artifacts\mvdfrm\UnityEditor.UIElementsSamplesModule.dll_1340EEB277B
 Library\Bee\artifacts\mvdfrm\UnityEditor.UIServiceModule.dll_AD9AF3A93BBAB831.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UnityConnectModule.dll_61E9BAEEFD2543A9.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AccessibilityModule.dll_E20F862D948585A3.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEngine.AIModule.dll_E581E77504F03967.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AndroidJNIModule.dll_ABBDED2DF9DCB2A5.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AnimationModule.dll_EEA5B152BA27C389.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.ARModule.dll_9EF4AC78620D9830.mvfrm
@@ -90,9 +89,9 @@ Library\Bee\artifacts\mvdfrm\Unity.Android.Types.dll_F825F37E3FB3F991.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.Android.Extensions.dll_E28E212D8DBEE1FB.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WebGL.Extensions.dll_083ABBDB58C8D9ED.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_AD57BC92788AA85D.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_A72E9B1C3F30D8E8.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_B0742E661251C1CD.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.IonicZip.dll_6F4151A9D7E89C92.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.YamlDotNet.dll_D7618E722FC3AF8A.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.TextureAssets.dll_6E7FB7C5F0910D82.mvfrm
-Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_88CEB553608CBFA9.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_DBEB91DCBB331097.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_F80AC15A82AFCBAE.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.IonicZip.dll_E7B244F30C4F51B4.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.YamlDotNet.dll_46D3DFC17AD47308.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.TextureAssets.dll_DDF209153BA1D100.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.VisualScripting.Antlr3.Runtime.dll_F84106A2AB9D8327.mvfrm

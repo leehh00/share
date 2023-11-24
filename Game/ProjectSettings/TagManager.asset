@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NPC
   - DialogPanel
+  - Button
   layers:
   - Default
   - TransparentFX
