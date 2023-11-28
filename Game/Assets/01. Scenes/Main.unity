@@ -661,6 +661,7 @@ GameObject:
   - component: {fileID: 31784980}
   - component: {fileID: 31784979}
   - component: {fileID: 31784978}
+  - component: {fileID: 31784982}
   m_Layer: 5
   m_Name: Main Canvas
   m_TagString: Untagged
@@ -753,6 +754,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &31784982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31784977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06a97d285852b6146a7a6ff446c37ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthNumber: 0
+  ideaNumber: 0
+  experienceNumber: 0
+  codingNumber: 0
+  fameNumber: 0
+  turnNumber: 10
+  actionNumber: 0
 --- !u!1001 &36884983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17330,6 +17350,7 @@ GameObject:
   - component: {fileID: 1649214355}
   - component: {fileID: 1649214354}
   - component: {fileID: 1649214353}
+  - component: {fileID: 1649214356}
   m_Layer: 5
   m_Name: "\uAC00\uBC29\uBC84\uD2BC"
   m_TagString: Untagged
@@ -17402,7 +17423,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1649214354}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1649214356}
+        m_TargetAssemblyTypeName: ChangeBagScene, Assembly-CSharp
+        m_MethodName: Bag_BtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1649214354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17441,6 +17474,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649214351}
   m_CullTransparentMesh: 1
+--- !u!114 &1649214356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649214351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9233b1e08e7400d4b817b95bb301c7c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bagScene: Bag
 --- !u!1001 &1661801419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18215,6 +18261,7 @@ GameObject:
   - component: {fileID: 1710805514}
   - component: {fileID: 1710805513}
   - component: {fileID: 1710805512}
+  - component: {fileID: 1710805515}
   m_Layer: 5
   m_Name: "\uC9C1\uC6D0\uBC84\uD2BC"
   m_TagString: Untagged
@@ -18287,7 +18334,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1710805513}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1710805515}
+        m_TargetAssemblyTypeName: ChangeEmployeeScene, Assembly-CSharp
+        m_MethodName: Employee_BtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1710805513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18326,6 +18385,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710805510}
   m_CullTransparentMesh: 1
+--- !u!114 &1710805515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710805510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cde1328e3223174eb50d6a6734e0bad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  employeeScene: Employee
 --- !u!1001 &1722007226
 PrefabInstance:
   m_ObjectHideFlags: 0

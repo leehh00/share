@@ -19,5 +19,17 @@ EditorBuildSettings:
     guid: b58a4129ba6c40644b286f14e109e91e
   - enabled: 1
     path: Assets/01. Scenes/Act.unity
-    guid: a58f5ad31fe0be142a9c73b5df64dc69
+    guid: 9e89b8b892c92fd438291669ef2529f0
+  - enabled: 1
+    path: Assets/01. Scenes/Bag.unity
+    guid: a6942f4fb72a01c499ff40069484cbda
+  - enabled: 1
+    path: Assets/01. Scenes/Develop.unity
+    guid: f59d99a403014764499f232ad50ef37e
+  - enabled: 1
+    path: Assets/01. Scenes/Gacha.unity
+    guid: ddfe1724b5dc9ee418f500a0ffb29264
+  - enabled: 1
+    path: Assets/01. Scenes/Employee.unity
+    guid: 79a562fd1760bcb46ae98ee7e5ddbfcf
   m_configObjects: {}
