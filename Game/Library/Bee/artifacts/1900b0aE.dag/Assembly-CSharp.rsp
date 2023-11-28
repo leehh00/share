@@ -354,6 +354,7 @@
 "Assets/02. Scripts/GameManager.cs"
 "Assets/02. Scripts/Main_Menu.cs"
 "Assets/02. Scripts/Player.cs"
+"Assets/02. Scripts/Scene/ChangeActScene.cs"
 "Assets/02. Scripts/Scene/ChangeMainScene.cs"
 "Assets/02. Scripts/Scene/ChangeStoreScene.cs"
 "Assets/02. Scripts/Scene/ChangeSystemScene.cs"
